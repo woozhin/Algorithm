@@ -1,5 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    printf("hello Hackerlogin");
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+    printf("%d", a-b);
+
+    return 0;
 }
